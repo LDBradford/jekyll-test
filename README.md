@@ -1,2 +1,2 @@
 # jekyll-test
-Building a test site for Uncle J
+Building a test site for the Dwelling Word.
