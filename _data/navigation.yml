@@ -1,0 +1,40 @@
+main:
+  - title: "Home"
+    url: /
+
+  - title: "About"
+    url: /about/
+
+  - title: "Blog"
+    url: /blog/
+
+  - title: "Videos"
+    url: /videos/
+    children:
+      - title: "New Testament"
+        url: /videos/new-testament/
+      - title: "Old Testament"
+        url: /videos/old-testament/
+      - title: "Memorization Techniques"
+        url: /videos/memorization-techniques/
+
+  - title: "Podcasts"
+    url: /podcasts/
+    children:
+      - title: "Main Podcast"
+        url: /podcasts/main-podcast/
+      - title: "Secondary Podcast"
+        url: /podcasts/secondary-podcast/
+
+  - title: "Social Challenges"
+    url: /social/
+
+  - title: "Events"
+    url: /events/
+
+  - title: "Speaking & Coaching"
+    url: /speaking-coaching/
+
+  - title: "Store"
+    url: /store/
+

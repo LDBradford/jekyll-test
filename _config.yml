@@ -1,4 +1,9 @@
 title: Proof of Concept
 description: A minimal Jekyll site using GitHub Pages
-theme: jekyll-theme-minimal
 
+remote_theme: mmistakes/minimal-mistakes
+
+plugins:
+  - jekyll-include-cache
+
+minimal_mistakes_skin: "default" # try "air", "dark", "mint"
