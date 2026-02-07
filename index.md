@@ -17,14 +17,20 @@ This Jekyll-powered space demonstrates how a Minimal Mistakes site can host essa
 
 ### What the site already shows
 
-<div class="row">
-  <article class="col-6">
-    <h3>Editorial groundwork</h3>
-    <p>Dummy blog posts track layout, tags, and category behavior so we can see how summaries, dates, and metadata render across different skins.</p>
+<div class="card-grid">
+  <article class="card">
+    <header>
+      <p class="card-meta">Editorial groundwork</p>
+      <h3>Blog experiments</h3>
+    </header>
+    <p>Dummy posts record layout, metadata, and category behavior so we can validate the workflow for summaries and featured cards.</p>
   </article>
-  <article class="col-6">
-    <h3>Media &amp; events</h3>
-    <p>Video walkthroughs, podcast notes, and event listings appear in their dedicated collections (`/videos/`, `/podcasts/`, `/events/`), proving the theme can surface varied content in one navigation.</p>
+  <article class="card">
+    <header>
+      <p class="card-meta">Media &amp; events</p>
+      <h3>Collections in action</h3>
+    </header>
+    <p>Podcasts, videos, store items, and events live under their own collections, demonstrating that Minimal Mistakes can surface mixed content from a single repo.</p>
   </article>
 </div>
 
@@ -32,48 +38,54 @@ This Jekyll-powered space demonstrates how a Minimal Mistakes site can host essa
 
 ## Feature highlights
 
-<div class="cards-grid">
+<div class="card-grid">
   <article class="card">
     <header>
       <p class="card-meta">Layouts &amp; typography</p>
       <h3>Minimal Mistakes skins</h3>
     </header>
-    <p>Switch `minimal_mistakes_skin` to test `air`, `default`, or `dark`. Each skin pairs with responsive type scales, featured cards, and hero behaviors that are already wired into this home layout.</p>
+    <p>Switch `minimal_mistakes_skin` to test `air`, `default`, or `dark`. Each skin applies responsive type scales, featured cards, and hero styles that adapt to your content automatically.</p>
   </article>
   <article class="card">
     <header>
       <p class="card-meta">Collections</p>
       <h3>Posts, podcasts, and more</h3>
     </header>
-    <p>Every collection in the repo—blog, videos, podcasts, store, and events—instantly generates archive pages. The grid below links to the main hubs for quick validation.</p>
+    <p>Every collection—blog, videos, podcasts, events, store—instantly generates archives. Keep adding markdown and note how the theme keeps navigation and cards consistent.</p>
   </article>
   <article class="card">
     <header>
       <p class="card-meta">Workflow demo</p>
       <h3>Updates ready for review</h3>
     </header>
-    <p>Drop new markdown files into `_posts/`, `videos/`, or `_data/` and let the static build render previews. This page itself can grow with tabs, testimonials, or sponsor callouts as needed.</p>
+    <p>Drop new markdown into `_posts/`, `/videos`, or `_data/navigation.yml` and the build renders previews immediately. This landing page can grow with tabs, testimonials, and sponsor callouts too.</p>
   </article>
 </div>
 
-## Featured Collections
+## Featured collections
 
-<div class="row">
-  <div class="col-4">
-    <h4>Blog</h4>
+<div class="card-grid">
+  <article class="card">
+    <header>
+      <h4>Blog</h4>
+    </header>
     <p>Chronological essays and testing notes.</p>
     <p><a href="{{ '/blog/' | relative_url }}">Visit the blog archive →</a></p>
-  </div>
-  <div class="col-4">
-    <h4>Videos</h4>
-    <p>Demos that prove the site can host multimedia while retaining minimal shell.</p>
+  </article>
+  <article class="card">
+    <header>
+      <h4>Videos</h4>
+    </header>
+    <p>Demos that prove multimedia assets play nicely while the shell stays minimal.</p>
     <p><a href="{{ '/videos/' | relative_url }}">Browse videos →</a></p>
-  </div>
-  <div class="col-4">
-    <h4>Podcasts &amp; events</h4>
-    <p>Audio and live sessions ready for presentation to donors or collaborators.</p>
+  </article>
+  <article class="card">
+    <header>
+      <h4>Podcasts &amp; events</h4>
+    </header>
+    <p>Audio notes and live sessions ready for sponsors or collaborators.</p>
     <p><a href="{{ '/podcasts/' | relative_url }}">Hear the podcasts →</a></p>
-  </div>
+  </article>
 </div>
 
 ## Latest drafts
